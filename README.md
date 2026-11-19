@@ -32,6 +32,8 @@ Un **espace** est un document Grist complet — tables, formules, pages, widgets
 
 Vous êtes propriétaire du document importé. Rien n'est installé ailleurs : les widgets sont des pages web publiques, qui lisent et écrivent dans votre document avec les droits de la personne connectée.
 
+Les widgets sont chargés depuis leur **adresse stable** (`…/v1/`) : une évolution d'un widget ne modifie pas votre espace sans que vous l'ayez décidé.
+
 ## Le régler
 
 - **Management visuel** : bouton *Réglages* de l'écran (écrans et zones, rubriques de la météo, niveaux d'escalade, rotation de l'affichage).
@@ -44,6 +46,8 @@ Les réglages sont enregistrés dans le document. Les widgets partagent aussi le
 ## Données et droits d'accès
 
 L'espace contient les **règles d'accès** de grist-projet, qui protègent les projets restreints. Elles ne concernent que les tables de projets : les autres tables restent accessibles à tous les membres du document. Vérifiez-les dans *Permissions avancées* avant d'inviter l'équipe.
+
+Les tables `Personnes` et `Structures`, quand l'espace en contient, suivent la règle commune des widgets : un widget de la famille ajouté plus tard les reprend et les complète, au lieu d'en créer d'autres.
 
 Les fichiers de ce dépôt ne contiennent aucune donnée réelle. L'exemple est entièrement fictif.
 
@@ -59,6 +63,7 @@ Les fichiers de ce dépôt ne contiennent aucune donnée réelle. L'exemple est 
 - [espace-collaboratif](https://github.com/lab17bis/espace-collaboratif) : faire ensemble : réunions, projets partagés et ressources communes d'une équipe.
 - [espace-accompagnement](https://github.com/lab17bis/espace-accompagnement) : suivre les personnes qui sollicitent un service : offre de service, sollicitations, fiches contact et satisfaction.
 - [espace-sondage](https://github.com/lab17bis/espace-sondage) : concevoir un questionnaire, savoir qui a répondu et lire les résultats en indicateurs.
+- [espace-reseau](https://github.com/lab17bis/espace-reseau) : animer un réseau ou une communauté de pratique : membres, groupes, rencontres, présences, ressources partagées et retours.
 
 ## Écosystème
 
