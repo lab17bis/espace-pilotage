@@ -19,7 +19,7 @@ Un **espace** est un document Grist complet — tables, formules, pages, widgets
 | **Management visuel** | [grist-management](https://github.com/lab17bis/grist-management) | Écran d'équipe : chiffres clés, météo, signalements, actions, prochaine réunion. Tables `Meteo` et `Signalements`. |
 | **Réunions** | [grist-reunion](https://github.com/lab17bis/grist-reunion) | Ordre du jour, séance, compte rendu, suivi des actions. Tables `Reunions`, `Points`, `Decisions`, `Actions_reunion`. |
 | **Indicateurs** | [grist-graphique](https://github.com/lab17bis/grist-graphique) | Tableau de bord d'indicateurs. Page *Régler les indicateurs* pour le modifier. |
-| **Projets** | [grist-projet](https://github.com/lab17bis/grist-projet) | Banque de projets, fiches projet, plans d'action, journal et règles d'accès. Tables `Projets`, `Actions`, `Journal`, `Documents`, `Personnes`, `Structures`, `Comptes`, `Parametres`. |
+| **Projets** | [grist-projet](https://github.com/lab17bis/grist-projet) | Banque de projets, plans d'action avec sous-actions, jalons et dépendances (liste, kanban, chronologie), journal, rôle « Administration » et règles d'accès. Tables `Projets`, `Actions`, `Journal`, `Documents`, `Personnes`, `Structures`, `Comptes`, `Parametres`. |
 
 ## L'installer en 2 minutes
 
