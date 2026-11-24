@@ -20,7 +20,7 @@ Un **espace** est un document Grist complet — tables, formules, pages, widgets
 | --- | --- | --- |
 | **Management visuel** | [grist-management](https://github.com/lab17bis/grist-management) | Écran d'équipe : chiffres clés, météo, signalements, actions, prochaine réunion. Tables `Meteo` et `Signalements`. |
 | **Réunions** | [grist-reunion](https://github.com/lab17bis/grist-reunion) | Ordre du jour, séance, compte rendu, suivi des actions. Tables `Reunions`, `Points`, `Decisions`, `Actions_reunion`. |
-| **Priorités** | [grist-decision](https://github.com/lab17bis/grist-decision) | Consultation de l'équipe en vote par points pour classer les chantiers. Tables `Consultations`, `Propositions`, `Criteres`, `Votes`, `Votants`. |
+| **Priorités** | [grist-consultation](https://github.com/lab17bis/grist-consultation) | Consultation de l'équipe en vote par points pour classer les chantiers. Tables `Consultations`, `Propositions`, `Criteres`, `Votes`, `Votants`. |
 | **Indicateurs** | [grist-graphique](https://github.com/lab17bis/grist-graphique) | Tableau de bord d'indicateurs. Page *Régler les indicateurs* pour le modifier. |
 | **Projets** | [grist-projet](https://github.com/lab17bis/grist-projet) | Banque de projets, fiches projet, plans d'action, journal et règles d'accès. Tables `Projets`, `Actions`, `Journal`, `Documents`, `Personnes`, `Structures`, `Comptes`, `Parametres`. |
 | **Parties prenantes** | [grist-graphe](https://github.com/lab17bis/grist-graphe) | Graphe des projets, des structures et des personnes, reliés par les références des fiches projet (structure porteuse, porteurs, équipe, structures associées). Vue *Positions* selon les colonnes `Influence` et `Interet` des structures. |
@@ -63,7 +63,7 @@ Les fichiers de ce dépôt ne contiennent aucune donnée réelle. L'exemple est 
 - [grist-projet](https://github.com/lab17bis/grist-projet) : banque de projets partagée et plans d'action.
 - [grist-reunion](https://github.com/lab17bis/grist-reunion) : ordres du jour, notes, décisions, actions et comptes rendus.
 - [grist-management](https://github.com/lab17bis/grist-management) : écran de management visuel : météo d'équipe, signalements, chiffres clés.
-- [grist-decision](https://github.com/lab17bis/grist-decision) : consultations : boîte à idées, valorisation des réalisations, votes et suites données.
+- [grist-consultation](https://github.com/lab17bis/grist-consultation) : consultations : boîte à idées, valorisation des réalisations, votes et suites données.
 - [grist-graphe](https://github.com/lab17bis/grist-graphe) : cartographie des acteurs et de leurs liens, matrice influence / intérêt.
 
 ## Autres espaces
