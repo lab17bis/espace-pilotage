@@ -24,6 +24,7 @@ Un **espace** est un document Grist complet — tables, formules, pages, widgets
 | **Indicateurs** | [grist-graphique](https://github.com/lab17bis/grist-graphique) | Tableau de bord d'indicateurs. Page *Régler les indicateurs* pour le modifier. |
 | **Projets** | [grist-projet](https://github.com/lab17bis/grist-projet) | Banque de projets, fiches projet, plans d'action, journal et règles d'accès. Tables `Projets`, `Actions`, `Journal`, `Documents`, `Personnes`, `Structures`, `Comptes`, `Parametres`. |
 | **Parties prenantes** | [grist-graphe](https://github.com/lab17bis/grist-graphe) | Graphe des projets, des structures et des personnes, reliés par les références des fiches projet (structure porteuse, porteurs, équipe, structures associées). Vue *Positions* selon les colonnes `Influence` et `Interet` des structures. |
+| **Annuaire** | [grist-annuaire](https://github.com/lab17bis/grist-annuaire) | Personnes et structures du document : recherche, fiches, structures en arborescence, doublons et fusion, import CSV, archivage. Tables `Personnes`, `Structures` et `Comptes`, partagées avec les autres outils de l'espace. |
 
 ## L'installer en 2 minutes
 
@@ -40,6 +41,7 @@ Les widgets sont chargés depuis leur **adresse stable** (`…/v1/`) : une évol
 
 ## Le régler
 
+- **Annuaire** : onglet *Réglages* du widget (champs prévus et personnalisés, types de structures, délai de conservation, mention d'information, règles d'accès). Cochez *Gestionnaire de l'annuaire* sur la fiche des personnes qui tiennent l'annuaire.
 - **Management visuel** : bouton *Réglages* de l'écran (écrans et zones, rubriques de la météo, niveaux d'escalade, rotation de l'affichage).
 - **Réunions** : lien *Réglages* en bas du widget (instances, types de points, états des actions).
 - **Projets** : lien *Réglages du suivi* (listes, couleurs, en-tête et pied de page).
@@ -51,7 +53,7 @@ Les réglages sont enregistrés dans le document. Ils partagent les mêmes régl
 
 ## Données et droits d'accès
 
-Les votes de la page *Priorités* portent l'adresse de leur auteur, visible des propriétaires dans la table `Votes`. L'espace contient aussi les **règles d'accès** de grist-projet, qui protègent les projets restreints. Elles ne concernent que les tables de projets : les autres tables restent accessibles à tous les membres du document. Vérifiez-les dans *Permissions avancées* avant d'inviter l'équipe.
+Les votes de la page *Priorités* portent l'adresse de leur auteur, visible des propriétaires dans la table `Votes`. L'espace contient aussi les **règles d'accès** de grist-projet, qui protègent les projets restreints. Elles ne concernent que les tables de projets. L'annuaire y ajoute le rôle *gestionnaire de l'annuaire* (fiches modifiables sans être propriétaire) et empêche un visiteur anonyme de lire les personnes. Les autres tables restent accessibles à tous les membres du document. Vérifiez les règles dans *Permissions avancées* avant d'inviter l'équipe.
 
 Les tables `Personnes` et `Structures`, quand l'espace en contient, suivent la règle commune des widgets : un widget de la famille ajouté plus tard les reprend et les complète, au lieu d'en créer d'autres.
 
@@ -61,6 +63,7 @@ Les fichiers de ce dépôt ne contiennent aucune donnée réelle. L'exemple est 
 
 - [grist-graphique](https://github.com/lab17bis/grist-graphique) : tableaux de bord et indicateurs à seuils au DSFR.
 - [grist-projet](https://github.com/lab17bis/grist-projet) : banque de projets partagée et plans d'action.
+- [grist-annuaire](https://github.com/lab17bis/grist-annuaire) : annuaire des personnes et des structures d'un document : recherche, fiches, doublons, import, protection des données.
 - [grist-reunion](https://github.com/lab17bis/grist-reunion) : ordres du jour, notes, décisions, actions et comptes rendus.
 - [grist-management](https://github.com/lab17bis/grist-management) : écran de management visuel : météo d'équipe, signalements, chiffres clés.
 - [grist-consultation](https://github.com/lab17bis/grist-consultation) : consultations : boîte à idées, valorisation des réalisations, votes et suites données.
