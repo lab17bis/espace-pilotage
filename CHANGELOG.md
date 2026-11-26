@@ -2,6 +2,14 @@
 
 Les fichiers publiés ne sont jamais retirés : chaque version ajoute ou corrige, sans casser l'existant.
 
+## 2026-11-26 (correctifs des widgets)
+
+### Corrigé
+- Correctifs des widgets utilisés par cet espace, pris en compte sans rien réinstaller (rechargez la page) :
+  - grist-management : dans la version `/v1/`, les tableaux de bord de grist-graphique ne se chargeaient plus (erreur 404 sur ses modules) ;
+  - grist-projet : le filtre « État » de la banque et la liste « État » du formulaire de projet étaient masqués ;
+  - style commun de configuration (grist-annuaire, grist-consultation, grist-graphe, grist-management, grist-projet, grist-reunion) : il ne masque plus que le badge « Enregistré » sur l'onglet de l'outil.
+
 ## 2026-11-26 (suivi de projets et réunions)
 
 ### Modifié
