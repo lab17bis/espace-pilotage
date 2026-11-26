@@ -10,7 +10,6 @@ Les fichiers publiés ne sont jamais retirés : chaque version ajoute ou corrige
   - grist-projet : le filtre « État » de la banque et la liste « État » du formulaire de projet étaient masqués ;
   - style commun de configuration (grist-annuaire, grist-consultation, grist-graphe, grist-management, grist-projet, grist-reunion) : il ne masque plus que le badge « Enregistré » sur l'onglet de l'outil.
 
-
 ### Ajouté
 - Brancher un outil sur un document qui a déjà ses propres tables (grist-management, grist-reunion, grist-projet, grist-consultation, grist-graphe, grist-annuaire) : si une table du même nom existe sans toutes les colonnes attendues, l'outil le signale et propose de les ajouter, avec le conseil de renommer d'abord une colonne qui porte la même information sous un autre nom. Rien à refaire dans cet espace : ses tables sont complètes.
 
