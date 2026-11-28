@@ -21,7 +21,7 @@ Un **espace** est un document Grist complet — tables, formules, pages, widgets
 | **Management visuel** | [grist-management](https://github.com/lab17bis/grist-management) | Écran d'équipe : chiffres clés, météo, signalements, actions, prochaine réunion. Tables `Meteo` et `Signalements`. |
 | **Réunions** | [grist-reunion](https://github.com/lab17bis/grist-reunion) | Ordre du jour, séance, compte rendu, suivi des actions. Tables `Reunions`, `Points`, `Decisions`, `Actions_reunion`. |
 | **Priorités** | [grist-consultation](https://github.com/lab17bis/grist-consultation) | Consultation de l'équipe en vote par points pour classer les chantiers. Tables `Consultations`, `Propositions`, `Criteres`, `Votes`, `Votants`. |
-| **Indicateurs** | [grist-graphique](https://github.com/lab17bis/grist-graphique) | Tableau de bord d'indicateurs. Page *Régler les indicateurs* pour le modifier. |
+| **Indicateurs** | [grist-graphique](https://github.com/lab17bis/grist-graphique) | Tableau de bord d'indicateurs. Page *Éditeur des indicateurs* pour le modifier. |
 | **Projets** | [grist-projet](https://github.com/lab17bis/grist-projet) | Banque de projets, fiches projet, plans d'action, journal et règles d'accès. Tables `Projets`, `Actions`, `Journal`, `Documents`, `Personnes`, `Structures`, `Comptes`, `Parametres`. |
 | **Parties prenantes** | [grist-graphe](https://github.com/lab17bis/grist-graphe) | Graphe des projets, des structures et des personnes, reliés par les références des fiches projet (structure porteuse, porteurs, équipe, structures associées). Vue *Positions* selon les colonnes `Influence` et `Interet` des structures. |
 | **Annuaire** | [grist-annuaire](https://github.com/lab17bis/grist-annuaire) | Personnes et structures du document : recherche, fiches, structures en arborescence, doublons et fusion, import CSV, archivage. Tables `Personnes`, `Structures` et `Comptes`, partagées avec les autres outils de l'espace. |
@@ -47,7 +47,7 @@ Les widgets sont chargés depuis leur **adresse stable** (`…/v1/`) : une évol
 - **Projets** : lien *Réglages du suivi* (listes, couleurs, en-tête et pied de page).
 - **Priorités** : bouton *Nouvelle consultation*, puis onglet *Gérer* (mode de vote, points par personne, échéance, visibilité des résultats).
 - **Parties prenantes** : bouton *Réglages* du graphe (tables d'acteurs, sources de liens) ; ajoutez une table `Liens` depuis le widget pour saisir des liens à la main.
-- **Indicateurs** : page *Régler les indicateurs*.
+- **Indicateurs** : page *Éditeur des indicateurs*.
 
 Les réglages sont enregistrés dans le document. Ils partagent les mêmes réglages d'en-tête et de pied de page.
 
