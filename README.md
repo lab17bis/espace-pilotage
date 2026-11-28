@@ -18,7 +18,7 @@ Un **espace** est un document Grist complet — tables, formules, pages, widgets
 
 | Page | Outil | Contenu |
 | --- | --- | --- |
-| **Management visuel** | [grist-management](https://github.com/lab17bis/grist-management) | Écran d'équipe : chiffres clés, météo, signalements, actions, prochaine réunion. Tables `Meteo` et `Signalements`. |
+| **Management visuel** | [grist-management](https://github.com/lab17bis/grist-management) | Écran d'équipe : chiffres clés, priorités et points chauds, signalements, actions, prochaine réunion, météo facultative. Deux niveaux au choix, **Équipe** et **Pilotage**, activés dans les réglages du widget. Tables `Meteo` et `Signalements` ; `Priorites`, `Tensions_charge` et `Charge` s'ajoutent à la demande. |
 | **Réunions** | [grist-reunion](https://github.com/lab17bis/grist-reunion) | Ordre du jour, séance, compte rendu, suivi des actions. Tables `Reunions`, `Points`, `Decisions`, `Actions_reunion`. |
 | **Priorités** | [grist-consultation](https://github.com/lab17bis/grist-consultation) | Consultation de l'équipe en vote par points pour classer les chantiers. Tables `Consultations`, `Propositions`, `Criteres`, `Votes`, `Votants`. |
 | **Indicateurs** | [grist-graphique](https://github.com/lab17bis/grist-graphique) | Tableau de bord d'indicateurs. Page *Éditeur des indicateurs* pour le modifier. |
@@ -43,6 +43,7 @@ Les widgets sont chargés depuis leur **adresse stable** (`…/v1/`) : une évol
 
 - **Annuaire** : onglet *Réglages* du widget (champs prévus et personnalisés, types de structures, délai de conservation, mention d'information, règles d'accès). Cochez *Gestionnaire de l'annuaire* sur la fiche des personnes qui tiennent l'annuaire.
 - **Management visuel** : bouton *Réglages* de l'écran (écrans et zones, rubriques de la météo, niveaux d'escalade, rotation de l'affichage).
+- **Deux niveaux de management** : dans *Réglages* de l'écran, section *Deux niveaux*, bouton *Créer les tables* (ajoute `Priorites`, `Tensions_charge` et, si vous la cochez, `Charge`, sans rien retirer). Chaque vue du widget choisit ensuite son niveau et son équipe dans les options Grist de la vue (*Équipe* ou *Pilotage*), puis *Enregistrer*. Pour réserver chaque équipe à ses membres, reprenez les règles d'accès proposées par le widget (*Permissions avancées*) : elles s'appuient sur la colonne `Equipe` de `Personnes`.
 - **Réunions** : lien *Réglages* en bas du widget (instances, types de points, états des actions).
 - **Projets** : lien *Réglages du suivi* (listes, couleurs, en-tête et pied de page).
 - **Priorités** : bouton *Nouvelle consultation*, puis onglet *Gérer* (mode de vote, points par personne, échéance, visibilité des résultats).

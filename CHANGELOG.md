@@ -2,6 +2,9 @@
 
 Les fichiers publiés ne sont jamais retirés : chaque version ajoute ou corrige, sans casser l'existant.
 
+## 2026-11-28 (management à deux niveaux)
+- Documentation : le widget grist-management propose maintenant deux niveaux, **Équipe** (priorités et points chauds, signalements de l'équipe, charge vécue facultative) et **Pilotage** (escalades, arbitrages, tension de charge de chaque équipe), avec des règles d'accès par équipe. Il est lu à l'adresse stable `/v1/` : rien à réimporter, les fichiers `.grist` sont inchangés. Les tables nécessaires s'ajoutent depuis *Réglages › Deux niveaux* du widget.
+
 ## 2026-11-28 (noms des éditeurs)
 - Les pages de réglage s'appellent désormais « Éditeur des indicateurs », « Éditeur des ressources », « Éditeur de l'offre de service », « Éditeur du questionnaire » (au lieu de « Régler … » et « Concevoir le questionnaire »), et chaque vue de configuration a pour titre « Éditeur du widget ». Fichiers .grist (vide et exemple) et README mis à jour ; aucune table ni aucun réglage ne change.
 
