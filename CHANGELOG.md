@@ -2,8 +2,14 @@
 
 Les fichiers publiés ne sont jamais retirés : chaque version ajoute ou corrige, sans casser l'existant.
 
+## 2026-11-28 (deux niveaux dans les fichiers de l'espace)
+- Fichiers `.grist` (vide et exemple) : tables `Priorites`, `Tensions_charge` et `Affectations` avec leurs pages de données, colonnes `Equipe` (signalements, météo, actions de réunion) et `Nature` (signalements), page *Pilotage (managers)* (le même widget au niveau Pilotage). Rien n'est retiré ni renommé.
+- Fichier d'exemple : équipes fictives Accueil et Gestion, priorités, tensions de charge sur six semaines et affectations fictives (adresses `@exemple.invalid`), équipes posées sur les signalements et la météo d'exemple.
+- Les règles d'accès par équipe ne sont pas posées d'avance : elles se posent depuis le widget une fois les affectations renseignées. Vérifié en important les deux fichiers dans Grist, puis en posant les règles à côté de celles de l'annuaire et des projets.
+- Documents déjà importés : rien à réimporter ; les mêmes tables s'ajoutent depuis *Réglages › Général › Deux niveaux* du widget.
+
 ## 2026-11-28 (management à deux niveaux)
-- Documentation : le widget grist-management propose maintenant deux niveaux, **Équipe** (priorités et points chauds, signalements de l'équipe, charge vécue facultative) et **Pilotage** (escalades, arbitrages, tension de charge de chaque équipe), avec des règles d'accès par équipe. Il est lu à l'adresse stable `/v1/` : rien à réimporter, les fichiers `.grist` sont inchangés. Les tables nécessaires s'ajoutent depuis *Réglages › Deux niveaux* du widget.
+- Documentation : le widget grist-management propose maintenant deux niveaux, **Équipe** (priorités et points chauds, signalements de l'équipe, charge vécue facultative) et **Pilotage** (escalades, arbitrages, tension de charge de chaque équipe), avec des règles d'accès par équipe. Il est lu à l'adresse stable `/v1/` : rien à réimporter, les fichiers `.grist` n'étaient pas encore mis à jour. Les tables nécessaires s'ajoutent depuis *Réglages › Deux niveaux* du widget.
 
 ## 2026-11-28 (noms des éditeurs)
 - Les pages de réglage s'appellent désormais « Éditeur des indicateurs », « Éditeur des ressources », « Éditeur de l'offre de service », « Éditeur du questionnaire » (au lieu de « Régler … » et « Concevoir le questionnaire »), et chaque vue de configuration a pour titre « Éditeur du widget ». Fichiers .grist (vide et exemple) et README mis à jour ; aucune table ni aucun réglage ne change.
