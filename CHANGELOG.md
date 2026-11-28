@@ -2,6 +2,9 @@
 
 Les fichiers publiés ne sont jamais retirés : chaque version ajoute ou corrige, sans casser l'existant.
 
+
+## 2026-11-28 (document public)
+- Sécurité : si le document est rendu public (page publique d'un outil), un visiteur sans compte ne lit plus, par l'API de Grist, les adresses des personnes, ni les actions, le journal et les documents des projets. Règles d'accès ajoutées aux deux fichiers `.grist`, en tête des règles de chaque table.
 ## 2026-11-28 (deux niveaux dans les fichiers de l'espace)
 - Fichiers `.grist` (vide et exemple) : tables `Priorites`, `Tensions_charge` et `Affectations` avec leurs pages de données, colonnes `Equipe` (signalements, météo, actions de réunion) et `Nature` (signalements), page *Pilotage (managers)* (le même widget au niveau Pilotage). Rien n'est retiré ni renommé.
 - Fichier d'exemple : équipes fictives Accueil et Gestion, priorités, tensions de charge sur six semaines et affectations fictives (adresses `@exemple.invalid`), équipes posées sur les signalements et la météo d'exemple.
